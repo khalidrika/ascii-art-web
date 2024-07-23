@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ascci Art Web</title>
+    <link href="styles.css" rel="stylesheet"/>
+</head>
+<body>
+ <div class="kolxi hna">
+    <div class="input">
+        <section>
+            <h1>ASCCI ART WEB</h1>
+            <p>Enter text</p>
+            <form method="POST" action="/assci-art" >
+            <fieldset>
+              <input type="text" name="text" placeholder="Enter text" required>
+              <button type="submit">run</button>
+              
+            <fieldset>
+        <label><input id="stander" type="radio" name="banner" checked>stander</label>
+        <label><input id="tinkertoy" type="radio" name="banner">tinkertoy</label>
+        <label><input id="shadow" type="radio" name="banner">shadow</label>
+            </fieldset>
+            </fieldset>
+        </form>
+     </section>
+    </div>
+ </div>
+ <pre>{{.}}</pre>
+</body>
+</html>
